@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Siemreap&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Siemreap&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <!--header section start-->
+    <header class="header flex items-center justify-center">
+        <a href="#" class="logo"><i class="fa-brands fa-envira"></i>CHAMKAR</a>
+       &emsp14;&emsp14;&emsp14;&emsp14;
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="product.html">Products</a>
+            <button class="dropdown"><a href="#category">Categories<i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="fruit.html">Fruits</a>
+                    <hr>
+                    <a href="vegetable.html">Vegetabels</a>
+                    <hr>
+                    <a href="meat.html">Meats</a>
+                    <hr>
+                    <a href="beverage.html">Beverages</a>
+                    <hr>
+                    <a href="seasoning.html">Seasoning</a>
+                    <hr>
+                    <a href="snack.html">Snacks</a>
+                  </div>
+                </button>
+            <a href="contact">Contact Us</a>
+       </nav>
+       <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+       </div>
+
+       <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box" class="fas fa-search"></label>
+       </form>
+
+       <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/fruit/F5.png" alt="">
+            <div class="content">
+                <h3>Banana</h3>
+                <span class="price">$3.99</span>
+                <span class="quantity">qty: 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/meat/M4.png" alt="">
+            <div class="content">
+                <h3>Salmon</h3>
+                <span class="price">$11.99</span>
+                <span class="quantity">qty: 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/vegetable/V1.png" alt="">
+            <div class="content">
+                <h3>Carrot</h3>
+                <span class="price">$2.99</span>
+                <span class="quantity">qty: 1</span>
+            </div>
+        </div>
+        <div class="total">total: $18.97/-</div>
+        <a href="#" class="btn">Check Out</a>
+       </div>
+
+       <form action="" class="login-form">
+        <h3>Login Now</h3>
+        <input type="text" class="box" placeholder="enter your username">
+        <input type="password" class="box" placeholder="enter your password">
+        <p>Forget your password<a href="#forget">Click Here</a></p>
+        <p>Don't have an account?<a href="#create">Create Now</a></p>
+        <input type="submit" class="btn" value="Login Now">
+       </form>
+       <form action="" class="create-form">
+
+       </form>
+     </header>
+        <br> &emsp;
+    <!--header section end-->
+
+    <!--home section start-->
+    <section>
+            <img src="img/poster1.png" class="w-full">
+      </section>
+    <!--home section end-->
+    <!--category section start-->
+    <div class="flex items-center justify-center bg-green-50 w-full">
+        <h1 class="text-7xl text-green-600"style="font-family: Permanent Marker, cursive;">Fresh Vegetables and Organic</h1>
+  &emsp;     <img src="img/fresh.png" alt="" class="h-80">
+    </div>
+    <section class="snack flex-cols items-center justify-center" id="snack">
+            <div class="box1">
+                <a href="snack-detail.html">
+                    <img src="img/snacks/s1.png" alt="">
+                </a>
+                <div class="content">
+                    &emsp;
+                    <h2>MACKEREL IN TOMATO</h2>
+                    <p>155G * 10</p>
+                    <br>
+                    <a>$6.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box2">
+                <img src="img/snacks/s2.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>POTATO VERMICELLI</h2>
+                    <p>320G * 18</p>
+                    <br>
+                    <a>$3.10</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box3">
+                <img src="img/snacks/s3.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>NOODLE (WIDE)</h2>
+                    <p>350G * 1</p>
+                    <br>
+                    <a>$1.40</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box4">
+                <img src="img/snacks/s4.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>DEWBERRYORANGE</h2>
+                    <p>17G * 1</p>
+                    <br>
+                    <a>$1.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box5">
+                <img src="img/snacks/s5.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>BANANA CHIPS</h2>
+                    <p>50G * 1</p>
+                    <br>
+                    <a>$2.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="snack flex-cols items-center justify-center" id="snack">
+        <div class="box6">
+                <img src="img/snacks/s6.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>MOCHACHINO COOKIES</h2>
+                    <p>400G * 1</p>
+                    <br>
+                    <a>$4.80</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box7">
+                <img src="img/snacks/s7.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>ME 3COLOR QUINOA</h2>
+                    <p>500G * 1BOX</p>
+                    <br>
+                    <a>$3.50</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box8">
+                <img src="img/snacks/s8.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>DEWBERRY CAKE PUFF</h2>
+                    <p>350G * 1</p>
+                    <br>
+                    <a>$1.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box9">
+                <img src="img/snacks/s9.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>LAY'S POTATO CHIPS</h2>
+                    <p>80G * 4</p>
+                    <br>
+                    <a>$4.50</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box10">
+                <img src="img/snacks/s10.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>ROSE PLUM</h2>
+                    <p>160G * 1</p>
+                    <br>
+                    <a>$1.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="snack flex-cols items-center justify-center" id="snack">
+        <div class="box11">
+                <img src="img/snacks/s11.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>Mango Plum</h2>
+                    <p>70G * 1</p>
+                    <br>
+                    <a>$1.30</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box12">
+                <img src="img/snacks/s12.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>TAMARIND CANDY</h2>
+                    <p>130G * 1</p>
+                    <br>
+                    <a>$3.00</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box13">
+                <img src="img/snacks/s13.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>FULLO WAFER</h2>
+                    <p>11G * 1</p>
+                    <br>
+                    <a>$2.00</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box14">
+                <img src="img/snacks/s14.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>KK10 BATH CHICKEN</h2>
+                    <p>150G * 1</p>
+                    <br>
+                    <a>$0.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box15">
+                <img src="img/snacks/s15.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>LINDT SWISS MILK</h2>
+                    <p>100G * 1</p>
+                    <br>
+                    <a>$3.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="snack flex-cols items-center justify-center" id="snack">
+        <div class="box16">
+                <img src="img/snacks/s16.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>SBIENG CASHEW NUT</h2>
+                    <p>500G * 1</p>
+                    <br>
+                    <a>$11.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box17">
+                <img src="img/snacks/s17.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>LOGAN IN SYRUP</h2>
+                    <p>350ML * 1</p>
+                    <br>
+                    <a>$2.50</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box18">
+                <img src="img/snacks/s18.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>Creamy Baked Cake</h2>
+                    <p>150G * 1</p>
+                    <br>
+                    <a>$0.60</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box19">
+                <img src="img/snacks/s19.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>Red Bean Bun</h2>
+                    <p>200G * 1</p>
+                    <br>
+                    <a>$1.20</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box20">
+                <img src="img/snacks/s20.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>Sweet Bread</h2>
+                    <p>350G * 1</p>
+                    <br>
+                    <a>$1.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="snack flex-cols items-center justify-center" id="snack">
+        <div class="box21">
+                <img src="img/snacks/s21.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>Millet Baggage</h2>
+                    <<p>150G * 1</p>
+                    <br>
+                    <a>$0.60</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box22">
+                <img src="img/snacks/s22.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>Fruit Cream Cheese</h2>
+                    <p>350G * 6</p>
+                    <br>
+                    <a>$1.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box23">
+                <img src="img/snacks/s23.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>CHOCOLATE CORNET</h2>
+                    <p>150G * 1</p>
+                    <br>
+                    <a>$1.00</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box24">
+                <img src="img/snacks/s24.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>Mini Croissant</h2>
+                    <p>100G * 1</p>
+                    <br>
+                    <a>$1.20</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box25">
+                <img src="img/snacks/s25.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>Donut</h2>
+                    <p>150G * 6</p>
+                    <br>
+                    <a>$3.50</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="snack flex-cols items-center justify-center" id="snack">
+        <div class="box26">
+                <img src="img/snacks/s26.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>ARECA PLUM</h2>
+                    <p>300G * 1</p>
+                    <br>
+                    <a>$9.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box27">
+                <img src="img/snacks/s27.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>JACK FRUIT CHIP</h2>
+                    <p>120G * 1</p>
+                    <br>
+                    <a>$3.60</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box28">
+                <img src="img/snacks/s28.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>CHOCOLATE ROCHER T30</h2>
+                    <p>500G * 1</p>
+                    <br>
+                    <a>$12.50</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box29">
+                <img src="img/snacks/s29.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>NUTELLA</h2>
+                    <p>680G * 1</p>
+                    <br>
+                    <a>$12.60</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box30">
+                <img src="img/snacks/s30.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>RAMBUTAN IN SYRUP</h2>
+                    <p>350G * 1</p>
+                    <br>
+                    <a>$2.50</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="snack flex-cols items-center justify-center mb-36" id="snack">
+        <div class="box31">
+                <img src="img/snacks/s31.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>PAI CAKE DURIAN</h2>
+                    <p>480G * 9</p>
+                    <br>
+                    <a>$20.70</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box32">
+                <img src="img/snacks/s32.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>KINDER BUENO</h2>
+                    <p>150G * 1</p>
+                    <br>
+                    <a>$1.50</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box33">
+                <img src="img/snacks/s33.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>TICKY COCOA</h2>
+                    <p>230G * 1</p>
+                    <br>
+                    <a>$0.50</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box34">
+                <img src="img/snacks/s34.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>Cashew Nuts</h2>
+                    <p>300G * 1</p>
+                    <br>
+                    <a>$7.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box35">
+                <img src="img/snacks/s35.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>CHOCOCHIPS COOKIE</h2>
+                    <p>250G * 1</p>
+                    <br>
+                    <a>$0.70</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!--category section end-->
+
+    <!--contact as section start-->
+    <hr>
+    <!--contact as section start-->
+    <section class="bg-green-50 py-24">
+        <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center justify-center mx-auto max-w-screen-xl px-6">
+    
+            <!-- Left Section with Title and Description -->
+            <div class="flex flex-col items-center sm:items-start">
+                <h2 class="text-4xl sm:text-5xl lg:text-7xl text-green-500 font-cursive text-center sm:text-left" style="font-family: Permanent Marker, cursive;">
+                    <i class="fa-brands fa-envira"></i> CHAMKAR
+                </h2>
+                <br>
+                <p class="text-xl sm:text-2xl lg:text-4xl text-center sm:text-left mt-4">
+                    First general merchandise store in Cambodia which has a full line of apparel,
+                    food and living ware necessary for the customer.
+                </p>
+            </div>
+            
+            <!-- Contact Information Section -->
+            <div class="flex flex-col items-center sm:items-start mt-8 sm:mt-0 ml-16">
+                <h3 class="text-3xl sm:text-4xl lg:text-5xl font-cursive text-center sm:text-left mb-4"style="font-family: Permanent Marker, cursive;">Contact Information</h3>
+                <br>
+                <p class="text-xl sm:text-2xl lg:text-4xl flex items-center mb-4 text-center sm:text-left">
+                    <i class="fas fa-phone text-green-500 mr-2"></i> +855 87 666 168
+                </p>
+                <p class="text-xl sm:text-2xl lg:text-4xl flex items-center mb-4 text-center sm:text-left">
+                    <i class="fas fa-envelope text-green-500 mr-2"></i> info@chamkar.com
+                </p>
+                <p class="text-xl sm:text-2xl lg:text-4xl flex items-center text-center sm:text-left">
+                    <i class="fas fa-location-dot text-green-500 mr-2"></i> #1B St.21A Takhmao Town Kandal Province
+                </p>
+            </div>
+    
+            <!-- Google Map Embed Section -->
+            <div class="flex justify-center sm:justify-start lg:ml-24 mt-8 sm:mt-0">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.773035706026!2d104.88949521181439!3d11.568121788585488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x20138e822e434660!2sRoyal%20University%20of%20Phnom%20Penh!5e0!3m2!1sen!2skh!4v1733391553646!5m2!1sen!2skh"
+                    width="100%" height="300" class="rounded-lg shadow-lg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+    
+        </div>
+    </section>
+    <!--contact as section end-->
+
+
+    <script src="script.js"></script>
+</body>
+</html>

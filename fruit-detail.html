@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamkar Market</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">">
+    <link href="https://fonts.googleapis.com/css2?family=Siemreap&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.js">
+</head>
+<body>
+    <!--header section start-->
+    <header class="header w-full">
+        <a href="#" class="logo"><i class="fa-brands fa-envira"></i>CHAMKAR</a>
+       <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="product.html">Products</a>
+            <button class="dropdown"><a href="#category">Categories<i class="fa fa-caret-down"></i></a>
+                <div class="dropdown-content">
+                    <a href="fruit.html">Fruits</a>
+                    <hr>
+                    <a href="vegetable.html">Vegetabels</a>
+                    <hr>
+                    <a href="meat.html">Meats</a>
+                    <hr>
+                    <a href="beverage.html">Beverages</a>
+                    <hr>
+                    <a href="seasoning.html">Seasoning</a>
+                    <hr>
+                    <a href="snack.html">Snacks</a>
+                  </div>
+                </button>
+            <a href="contact.html">Contact Us</a>
+       </nav>
+       <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+       </div>
+
+       <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Search here...">
+        <label for="search-box" class="fas fa-search"></label>
+       </form>
+
+       <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/fruit/F5.png" alt="">
+            <div class="content">
+                <h3>Banana</h3>
+                <span class="price">$3.99</span>
+                <span class="quantity">qty: 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/meat/M4.png" alt="">
+            <div class="content">
+                <h3>Salmon</h3>
+                <span class="price">$11.99</span>
+                <span class="quantity">qty: 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="img/vegetable/V1.png" alt="">
+            <div class="content">
+                <h3>Carrot</h3>
+                <span class="price">$2.99</span>
+                <span class="quantity">qty: 1</span>
+            </div>
+        </div>
+        <div class="total">total: $18.97/-</div>
+        <a href="#" class="btn">Check Out</a>
+       </div>
+
+       <form action="" class="login-form">
+        <h3>Login Now</h3>
+        <input type="text" class="box" placeholder="enter your username">
+        <input type="password" class="box" placeholder="enter your password">
+        <p>Forget your password<a href="#forget">Click Here</a></p>
+        <p>Don't have an account?<a href="#create">Create Now</a></p>
+        <input type="submit" class="btn" value="Login Now">
+       </form>
+     </header>
+<br> &emsp;
+    <!--header section end-->
+
+    <!--home section start-->
+    <section class="bg-white mt-16 z-50">
+        <div class="flex relative text-left items-center justify-center mt-10 w-full">
+            <ul class="flex flex-wrap items-left justify-center text-left text-3xl -ml-24 mt-24 mb-4">
+                <li class="px-2"><a href="#" class="hover:text-green-600">Home ></a></li>
+                <li class="px-2"><a href="#" class="hover:text-green-600">Categories ></a></li>
+                <li class="px-2"><a href="#" class="hover:text-green-600">Fruits ></a></li>
+                <li class="px-2"><a href="#" class="hover:text-green-600">Apricot ></a></li>
+            </ul>
+        </div>
+        <div class="flex items-center justify-center bg-green-50">
+            <img src="img/fruit/f1.png" alt="fruit" class="h-96">
+            <div class="block items-center justify-center mt-12 ml-36">
+                <h2 class="px-2 text-7xl text-blue-700" style="font-family: Slabo, serif;">Apricot</h2>
+                <br>
+                <h2 class="px-10 text-3xl" style="font-family: Poppins;">Code &emsp;&emsp;&emsp;&emsp;: &emsp; f-0601</h2>
+                <br>
+                <h2 class="px-10 text-3xl" style="font-family: Poppins;">In Stock &emsp;&emsp;&ensp;&nbsp;: &emsp; 10</h2>
+                <br>
+                <h2 class="px-10 text-3xl" style="font-family: Poppins;">Price &emsp;&emsp;&emsp;&emsp;&nbsp;: &emsp; $18.50</h2>
+                <br>
+                <h2 class="px-10 text-3xl" style="font-family: Poppins;">Quantity  &emsp;&emsp;&nbsp;: &emsp; 
+                    <div class="btn-group btn-sm px-e" role="group" aria-label="Basic checkbox toggle button group"> 
+                        <label class="btn btn-outline-primary" onclick="decrement()">
+                            <i class="fa fa-minus"></i>
+                        </label>
+                        <label class="btn btn-outline-none w-28 h-16 wrap_input text-center">
+                            <input type="number" class="text-center w-20 h-10 hover:text-black" id="number-input" value="1" min="1" />
+                        </label>
+                        <label class="btn btn-outline-primary" onclick="increment()">
+                            <i class="fa fa-plus"></i>
+                        </label>
+                &emsp;        <button class="btn btn-sm btn-primary btn_add_to_cart">
+                            <i class="fa fa-cart-plus"></i>
+                            <span>Add to cart</span>
+                            </button>
+                    </div>
+                </h2>
+                &emsp;
+                <h2 class="px-10 text-3xl mb-36" style="font-family: Poppins;">Description &emsp;: &emsp; Is purified and disinfected by R.O, UV and <br> 
+                    Ozen process qualified for the drinking water in high quality.</h2>
+    
+            </div>
+        </div>
+    </section>
+    <!--home section end-->
+
+    <!--category section start-->
+    <div class="flex text-left items-center justify-center">
+        <h1 class="text-5xl sm:text-4xl lg:text-7xl text-green-500 font-cursive text-center sm:text-left mt-24 mb-10" style="margin-left: -20rem;font-family: Permanent Marker, cursive;">Recommended Products</h1>
+    </div>
+    <section class="">
+            <section class="fruit flex-cols items-center justify-center lg:ml-4 mt-8 sm:mt-0" id="beverage">
+                <div class="box6">
+                    <img src="img/fruit/f6.png" alt="">
+                    <div class="content">
+                        &emsp;
+                        <h2>GREEN GRAPE</h2>
+                        <p>1000G * 1</p>
+                        <br>
+                        <a>$6.90</a>
+                        <br>
+                        <div class="icon">
+                         <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                        </div>
+                    </div>
+                </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box7">
+                <img src="img/fruit/f7.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>CROWN MELON</h2>
+                    <p>1000G * 1</p>
+                    <br>
+                    <a>$59.90</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box8">
+                <img src="img/fruit/f8.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>APPLE TOKI</h2>
+                    <p>x 2pcs</p>
+                    <br>
+                    <a>$2.50</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+            <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+            <div class="box9">
+                <img src="img/fruit/f9.png" alt="">
+                <div class="content">
+                    &emsp;
+                    <h2>Durian</h2>
+                    <p>500G - 600G</p>
+                    <br>
+                    <a>$12.50</a>
+                    <br>
+                    <div class="icon">
+                     <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+            <section class="fruit flex-cols items-center justify-center mb-36 lg:ml-24 mt-8 sm:mt-0" id="beverage">
+                <div class="box2">
+                    <img src="img/fruit/f2.png" alt="">
+                    <div class="content">
+                        &emsp;
+                        <h2>ZESPRI GREEN KIWI</h2>
+                        <p>1000G * 1</p>
+                        <br>
+                        <a>$4.90</a>
+                        <br>
+                        <div class="icon">
+                         <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                        </div>
+                    </div>
+                </div>
+                <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+                <div class="box3">
+                    <img src="img/fruit/f3.png" alt="">
+                    <div class="content">
+                        &emsp;
+                        <h2>NAVEL ORANGE</h2>
+                        <p>1000G * 1</p>
+                        <br>
+                        <a>$2.81</a>
+                        <br>
+                        <div class="icon">
+                         <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                        </div>
+                    </div>
+                </div>
+                <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+                <div class="box4">
+                    <img src="img/fruit/f4.png" alt="">
+                    <div class="content">
+                        &emsp;
+                        <h2>CAVENDISH BANANA</h2>
+                        <p>x 1Hand</p>
+                        <br>
+                        <a>$2.90</a>
+                        <br>
+                        <div class="icon">
+                         <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                        </div>
+                    </div>
+                </div>
+                <br> &emsp; &emsp; &emsp;&emsp;&emsp;
+                <div class="box5">
+                    <img src="img/fruit/f5.png" alt="">
+                    <div class="content">
+                        &emsp;
+                        <h2>AVOCADO</h2>
+                        <p>100G * 1</p>
+                        <br>
+                        <a>$0.39</a>
+                        <br>
+                        <div class="icon">
+                         <h2><div class="fas fa-plus" id="cart-btn"></div></h2>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    </section>
+     <!--category section start-->
+  
+<hr>
+    <!--contact as section start-->
+    <section class="bg-green-50 py-24">
+        <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 items-center justify-center mx-auto max-w-screen-xl px-6">
+    
+            <!-- Left Section with Title and Description -->
+            <div class="flex flex-col items-center sm:items-start">
+                <h2 class="text-4xl sm:text-5xl lg:text-7xl text-green-500 font-cursive text-center sm:text-left" style="font-family: Permanent Marker, cursive;">
+                    <i class="fa-brands fa-envira"></i> CHAMKAR
+                </h2>
+                <br>
+                <p class="text-xl sm:text-2xl lg:text-4xl text-center sm:text-left mt-4">
+                    First general merchandise store in Cambodia which has a full line of apparel,
+                    food and living ware necessary for the customer.
+                </p>
+            </div>
+            
+            <!-- Contact Information Section -->
+            <div class="flex flex-col items-center sm:items-start mt-8 sm:mt-0 ml-16">
+                <h3 class="text-3xl sm:text-4xl lg:text-5xl font-cursive text-center sm:text-left mb-4"style="font-family: Permanent Marker, cursive;">Contact Information</h3>
+                <br>
+                <p class="text-xl sm:text-2xl lg:text-4xl flex items-center mb-4 text-center sm:text-left">
+                    <i class="fas fa-phone text-green-500 mr-2"></i> +855 87 666 168
+                </p>
+                <p class="text-xl sm:text-2xl lg:text-4xl flex items-center mb-4 text-center sm:text-left">
+                    <i class="fas fa-envelope text-green-500 mr-2"></i> info@chamkar.com
+                </p>
+                <p class="text-xl sm:text-2xl lg:text-4xl flex items-center text-center sm:text-left">
+                    <i class="fas fa-location-dot text-green-500 mr-2"></i> #1B St.21A Takhmao Town Kandal Province
+                </p>
+            </div>
+    
+            <!-- Google Map Embed Section -->
+            <div class="flex justify-center sm:justify-start lg:ml-24 mt-8 sm:mt-0">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3908.773035706026!2d104.88949521181439!3d11.568121788585488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109519fe4077d69%3A0x20138e822e434660!2sRoyal%20University%20of%20Phnom%20Penh!5e0!3m2!1sen!2skh!4v1733391553646!5m2!1sen!2skh"
+                    width="100%" height="300" class="rounded-lg shadow-lg" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+    
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
